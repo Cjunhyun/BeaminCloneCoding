@@ -1,0 +1,13 @@
+port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url:  # rds endpoint를 입력해 주세요
+    username:  #rds의 유저이름을 입력해 주세요
+    password:  #rds의 비밀번호를 입력해 주세요
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
