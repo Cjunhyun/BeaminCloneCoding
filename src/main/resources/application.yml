@@ -1,11 +1,11 @@
 spring:
   application:
-    name: demo
+    name: 
 
   datasource:
-    platform: mysql
-    url: jdbc:mysql://umcclonecoding.cwbnvlk2ozxj.ap-northeast-2.rds.amazonaws.com/beamin
-    username: admin
+    platform:
+    url: 
+    username: 
     password: 12345678
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
     # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
